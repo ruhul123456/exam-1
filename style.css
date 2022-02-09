@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "lato" sans-serif;
+    
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*--Header Section Start*/
+header{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #fff;
+
+}
+.logo {
+    width: 25%;
+    float: left;
+    margin: 0px 0px 10px 10px;
+}
+.logo img{
+
+
+}
+.menu{
+    width: 60%;
+    float: right;
+}
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+nav ul li a:hover{
+    color: aqua;
+    
+}
+
+/*--Header Section End--*/
+/*--Banner Section Start--*/
+.banner{
+    background: url(img/banner.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 20px 0ex;
+}
+.banner-main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 140px;
+}
+.banner-main h4{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.banner-main p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.banner-btn{
+    border: 1px solid #15a4fa;
+    padding: 12px 32px;
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 1px;
+    padding-bottom: 20px;
+}
+
+/*--Banner Section End--*/
+/*service section Start*/
+.service{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.service-one{
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+.service-icon{
+    background: skyblue;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: black;
+    margin: 0 auto;
+}
+.fa, .fas {
+    font-weight: 900;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+/*service section End*/
+/*poperty sectionr start*/
+.property{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: cyan;
+}
+
+.Service-1{
+    width: 50%;
+    float: left;
+    background: #E3F8FD;
+}
+.icon{
+    width: 20%;
+    float: left;
+}
+.tex{
+    width: 30%;
+    float: right;
+}
+.Service-2{
+    width: 50%;
+    float: left;
+    background: #F5F9EB;
+}
+.banner-btn1{
+    border: 1px solid #15a4fa;
+    padding: 12px 32px;
+    background: #27A5D1;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 1px;
+    padding-bottom: 20px;
+
+}
+.banner-btn2{
+    border: 1px solid #15a4fa;
+    padding: 12px 32px;
+    background: #AED034;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 1px;
+    padding-bottom: 20px;
+    
+}
+/*poperty section end*/
+.feature {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.feature text{
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+}
+.feature button{
+    width: 50%;
+    float: right;
+    margin: 0 auto;
+}
+.company logo{
+    width: 100%;
+    float: left;
+
+}
+.logo img {
+    width: 100%;
+    padding: 15px 0px;
+}
+
+/*footer section start*/
+footer{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #F6F9F9;
+}
+.Copyright{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+/*footer section end*/
